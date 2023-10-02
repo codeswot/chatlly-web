@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+}
+.App{
+  display: inline-flex;
+  padding: 20px 20px 20px;
+  justify-content: center;
+}
+.message-box{
+  display: flex;
+  background-image: url("08.jpg");
+  background-size: cover;
+  background-color: rgba(133, 111, 83, 0.199);
+  width: 500px;
+  height: 500px;
+  align-items: flex-end;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input{
+  border-color: 2px solid rgb(255, 255, 255)  ;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  margin-left: 2px;
+}
+.sideBar{
+  width: 50px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+}
+.users{
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 500px;
+}
+
+.search{
+  margin-left: 2px;
+  padding: 10px;
+  border-color: 2px solid rgb(55, 0, 255)  ;
+  background-color: rgba(255, 255, 255, 0);
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  outline-color: none;
+}
+header{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  height: 40px;
+  padding: 5px ;
+  width: 500px;
+  background-color: #075e54;
 }
