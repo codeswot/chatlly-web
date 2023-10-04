@@ -2,6 +2,8 @@
   box-sizing: border-box;
   position: relative;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 .App{
   display: inline-flex;
@@ -12,19 +14,17 @@
   display: flex;
   background-image: url("08.jpg");
   background-size: cover;
-  background-color: rgba(133, 111, 83, 0.199);
+   border: gray solid 1px;
   width: 500px;
   height: 500px;
   align-items: flex-end;
 }
 
 .input{
-  border-color: 2px solid rgb(255, 255, 255)  ;
-  place-items: center;
   background-color: rgb(255, 255, 255);
   width: 400px;
   height: 50px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-left: 2px;
 }
 .sideBar{
@@ -34,13 +34,16 @@
   border-radius: 20px;
 }
 .users{
-  background-color: rgb(255, 255, 255);
+  background-color:  #eeeee4;
+  border-radius: 5px;
+  border: gray solid 1px;
   width: 500px;
   height: 500px;
 }
 
 .search{
   margin-left: 2px;
+  margin-top: 5px;
   padding: 10px;
   border-color: 2px solid rgb(55, 0, 255)  ;
   background-color: rgba(255, 255, 255, 0);
