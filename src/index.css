@@ -13,7 +13,7 @@
   background-image: url("./08.jpg");
   background-size: cover;
    border: gray solid 1px;
-  width: 500px;
+  width: 600px;
   height: 500px;
   align-items: flex-end;
 }
@@ -75,4 +75,29 @@ img{
   margin-left: 0;
   font-style: oblique;
   font-size: 20px;
+}
+.login-page,.register-page{
+  background-color: black;
+  align-items: center;
+  display: grid;
+}
+textarea{
+  margin: 20px;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+}
+button{
+  display: grid;
+  border: none;
+  background-color: #2aa0b4;
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+}
+.password{
+  color: #edf2f3 ;
+}
+h1{
+  color: #1cbbbb;
 }
