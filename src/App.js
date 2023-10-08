@@ -9,13 +9,15 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <SideBar />
-        <Users />
-        <MessageBox />
-        <Routes>
+      <Routes>
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
         </Routes>
+        <div className="body">
+        <SideBar />
+        <Users />
+        <MessageBox />
+        </div>
       </Router>
     </div>
   );
