@@ -23,6 +23,7 @@
 .input{
   color: #797373;
   background-color: rgb(255, 255, 255);
+
   width: 500px;
   height: 40px;
   font-family: 'Times New Roman', Times, serif;
@@ -134,10 +135,9 @@ header .user-two img{
 }
  .icon{
  font-size: 30px;
- color:#ffffff ;
+ color:#16665d ;
  width: 55px;
  border-radius: 50%;
- background-color: #16665d;
  margin-top: 390px;
  margin-right: 170px;
 }

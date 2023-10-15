@@ -10,8 +10,10 @@ const MessageBox = () => {
                 </div>
             </header>
             <div className="message">
-                <textarea placeholder="Message" className="input" type="text" />
-                <IoSend className='icon' />
+                <textarea placeholder="Message" className="input" type="text"/>
+                <div className="icons">
+                 <IoSend className='icon' />
+                 </div>
             </div>
 
         </div>
